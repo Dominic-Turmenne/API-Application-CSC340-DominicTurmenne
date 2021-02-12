@@ -60,8 +60,8 @@ class FreeGameDatabaseAPI {
                 // Display the game description.
                 System.out.println("Description from website: " + gameDescription);
             }   
-        } catch (Exception ex) {
-            System.out.println("Error: " + ex);
+        } catch (Exception exception) {
+            System.out.println("Error: " + exception);
             return;
         }
     }

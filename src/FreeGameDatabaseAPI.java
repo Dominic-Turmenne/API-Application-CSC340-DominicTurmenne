@@ -6,7 +6,8 @@ import java.net.URL;
 
 /*
 2/12/2021
-This class uses the www.freetogame.com API to display general game info the the user
+This class uses the www.freetogame.com API to display general game info to the user.
+Since this is a prototype, it will only display info on Call of Duty: Warzone
 Author(s): Dominic Turmenne
 */
 

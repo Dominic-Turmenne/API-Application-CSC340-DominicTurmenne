@@ -46,9 +46,11 @@ class FreeGameDatabaseAPI {
                 JSONObject object = new JSONObject(content.toString());
                 // Display the name of the game.
                 String gameName = object.getString("title");
+                String id = object.getString("id");
                 System.out.println("------------------------------" + '\n' + 
                         "Game: " + gameName + 
-                        '\n' + "------------------------------");
+                        '\n' + "Game ID: " + id + '\n'
+                        + "------------------------------");
                 // Access information about the game from JSON
                 String gameGenre = object.getString("genre");
                 String gameDeveloper = object.getString("developer");
